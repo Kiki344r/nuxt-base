@@ -6,4 +6,7 @@ export default defineNuxtConfig({
     css: ['~/assets/css/tailwind.css'],
 
     modules: ['@nuxt/eslint', '@nuxtjs/tailwindcss'],
+    experimental: {
+        externalVue: false
+    }
 })
